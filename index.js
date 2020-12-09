@@ -328,7 +328,7 @@ if (text.includes("!chord")){
 const teks = text.replace(/!chord /, "")
 axios.get(`https://alfians-api.herokuapp.com/api/chord?q=${teks}`).then((res) => {
 	conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
-    let hasil = `*Nih Cord Lagu ${teks} kak* \n\nCord: _${res.data.result}_ `;
+    let hasil = `*Nih Cord Lagu ${teks} kak* \n\nCord: ${res.data.result} `;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
