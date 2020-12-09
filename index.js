@@ -1,11 +1,11 @@
 /*
 * JANGAN UBAH-UBAH INFO!!!
 * "JANGAN MODAL NAMA DOANG BRO!!!"
-* SCRIPT BY ARIS187 ID
+* SCRIPT BY Chandra ID
 * JANGAN MODAL NAMA DOANG BOSQ
 * HARGAILAH YY MEMBUAT SCRIPT INI BOSQ
 * JANGAN UBAH-UBAH INFO!!!
-* ARIS187 ID
+* Chandra ID
 * BOLEH UBAH TAPI KECUALI INFO!!!
 */
 const A187 = '👾RAC-AI BOT👾'; // JANGAN UBAH-UBAH INFO!!!
@@ -14,7 +14,7 @@ const nomer = 'Wa.me/6281218898489'; // JANGAN UBAH-UBAH INFO!!!
 const aktif = 'Jika Memiliki Internet!'; // JANGAN UBAH-UBAH INFO!!!
 const groupwhatsapp = 'https://chat.whatsapp.com/DFyqVSqwxvfCVcpy2VAxg3'; // JANGAN UBAH-UBAH INFO!!!
 const youtube = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // JANGAN UBAH-UBAH INFO!!!
-//A187ID
+//ChandraID
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
 const cheerio = require("cheerio");
@@ -64,7 +64,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] RAC-AI BOT ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
