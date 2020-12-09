@@ -69,7 +69,7 @@ Script ini di modifikasi sama saya sendiri Chandra ID.
 > npm i -g ytdl 
 > npm i  
 > npm i got 
-> node index js
+> node index.js
 > Tinggal scan kode qr yeee...done
 ```
 
