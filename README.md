@@ -54,10 +54,10 @@ Script ini di modifikasi sama saya sendiri Chandra ID.
 ```bash
 > kalo lu belum punya apk termux, download di playstore
 > masuk ke apk termux lalu ketik dibawah ini!
+--oo0oo--
 > termux-setup-storage
 > pkg install git -y
-> pkg install tesseract -y
-
+> pkg install tesseract
 > pkg install wget -y
 > pkg install ffmpeg -y
 > pkg install nodejs -y
